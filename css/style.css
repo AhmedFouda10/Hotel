@@ -1,0 +1,179 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+nav{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+}
+.menu_nav{
+  height: 70px;
+  line-height: 60px;
+  background: #fff;
+}
+.menu_nav .logo{
+  padding-left: 20px;
+}
+.menu_nav ul{
+  padding-right: 20px;
+}
+.menu_nav ul li{
+  padding-left: 20px;
+  line-height: 70px;
+}
+.menu_nav ul li a{
+  color:#000;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 550;
+  transition: .5s;
+}
+.menu_nav ul li a:hover{
+  color:#71cffd;
+  text-decoration: none;
+}
+.menu_nav ul li a.active{
+  color:#71cffd;
+}
+/* ------------------------------------------ */
+ header{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  height: 780px;
+  width: 100%;
+  background-size: cover;
+  /* background-position: left; */
+  background-clip: content-box;
+  background-image: url("../img/banner_bg.jpg");
+}
+header .overlay{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(4, 9, 30,.4);
+}
+header .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFFFFF;
+}
+ .content h6{
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 550;
+}
+ .content h2{
+  font-size: 70px;
+  line-height: 60px;
+  font-weight: 700;
+}
+ .content p{
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 10px 0px 20px;
+}
+.content a{
+  background-color: #F3C300;
+  padding: 10px 30px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #F3C300;
+  color: #fff;
+  font-weight:700;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition:
+}
+.content a:hover{
+  background-color:#f8b100;
+}
+/* ------------------------- */
+.hotel_booking{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.hotel_booking .Book_Room{
+  width: 100%;
+  padding: 45px 70px 40px;
+  background-color: #04091E;
+}
+/* ------------preloader */
+.preloader{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
