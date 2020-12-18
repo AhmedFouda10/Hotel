@@ -128,6 +128,10 @@ header .content {
 .hvr-sweep-to-right::before {
     background-color: #f8b100;
     transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 .hotel_booking {
@@ -229,6 +233,18 @@ header .content {
     margin-bottom: 150px;
 }
 
+.hotel_titel h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.hotel_titel p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+}
+
 .hotel_content {
     width: 100%;
 }
@@ -238,10 +254,10 @@ header .content {
     width: 100%;
     overflow: hidden;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
 }
 
 .hotel_artical img {
@@ -309,6 +325,196 @@ header .content {
 .hotel_content h5 small {
     font-size: 60%;
     font-weight: 400;
+}
+
+
+/* facilities section */
+
+.Facilities {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url("../img/facilites_bg.jpg");
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.Facilities .overlay2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(4, 8, 30, 0.8);
+}
+
+.facility_titel {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.facility_titel h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.facility_titel p {
+    color: #545257;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+.facility_content {
+    width: 100%;
+    margin: auto;
+}
+
+.facility {
+    border: 1px solid #777777;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 255, 0.102);
+    padding: 31px 40px 37px;
+    color: #fff;
+    margin-bottom: 30px;
+    max-width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.facility h4 {
+    padding-bottom: 18px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.facility h4 i {
+    float: left;
+    color: #f3c300;
+    font-size: 24px;
+    line-height: 38px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 20px;
+}
+
+.facility p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+
+/* --------About US---------- */
+
+.About_Us {
+    margin-bottom: 100px;
+}
+
+.about_titel h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.about_titel p {
+    padding: 18px 0px 30px;
+    color: #9A9A9A;
+}
+
+.about_titel .btnAbout {
+    background-color: #222222;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 30px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+
+/* -------Testimonial--------- */
+
+.Testimonial {
+    background-color: #F9F9FF;
+    margin-bottom: 100px;
+}
+
+.tesmi_titel {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.tesmi_titel h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.tesmi_titel p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.tesmi_content {
+    width: 95%;
+    margin-right: 5%;
+    background-color: #fff;
+}
+
+.tesmi_item {
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+}
+
+.tesmi_info p {
+    color: #8c8d9e;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.tesmi_info .tesmi_name {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.tesmi_info .tesmi_name .sec_h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.tesmi_info .tesmi_name .sec_h4:hover {
+    color: #71cffd;
+}
+
+.star a i {
+    color: #f3c300;
+    font-size: 14px;
 }
 
 
